@@ -1,0 +1,14 @@
+(a) Two commits. 
+(b) When the GitHub repos was originally created by the instructor (When a GitHub repos is first created). 
+(c) The git log command displays committed snapshots, only operates on the commit history. Git status command
+on the other hand lets you inspect the working directory and the staging area, which may not have been committed. 
+(d) Unstaged files are files that exist in the Git repository, but they contain changes that Git hasn't recorded
+into its version history. Untracked files are files that exist locally, but aren't a part of the Git repository/
+An untracked file's change history will not be recorded and it will not be pushed when using git push. 
+(e) Git reset has various uses, including modifying the index, change the commit that a branch head is currently
+pointing at, and alter existing history. Git checkout on the other hand allows user to navigate between the branches,
+updating the files in the working directory to match the version on the branch, and tells Git to record all new commits.
+(f) There are various scenarios to this. If the local changes have no overlap with remote changes (new files, or
+modification of unchanged remote files), then git pull will pull the remote changes without affecting your local changes. 
+If there are overlaps, they will either have to be manually resolved, or overridden by the remote changes. 
+Use git stash to work around this situation. 
